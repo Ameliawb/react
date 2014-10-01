@@ -1,0 +1,26 @@
+body {
+background-image: url("paper.jpg");
+}
+box {
+    position: relative;}
+#green {
+    background: #d6ef39;
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    position: relative;
+}
+#blue {
+    background: #00a5c6;
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    position: relative;
+}
+#red {
+    background: #ce007b;
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    position: relative;
+}
