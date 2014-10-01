@@ -36,6 +36,17 @@ $(document).ready(function() {
         /* add after the curly bracket},1000); to set the timing of the animation*/
     });
 
+/*make duplicates for crazy shizzz to happen....*/
+$(".button7").click(function() {
+$( ".box" ).clone().prependTo( ".container" );
+$('#blue').css({"background":"none"});// remove existing
+$('#blue').css({"background":"#662277"});// add new color here.
+$('#red').css({"background":"none"});// remove existing
+$('#red').css({"background":"#3355ff"});// add new color here.
+$('#green').css({"background":"none"});// remove existing
+$('#green').css({"background":"#99ffaa"});// add new color here.
+ });
+
     /* reset all boxes to the original starting position and style*/
 
     $(".button6").click(function() {
