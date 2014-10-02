@@ -39,7 +39,7 @@ $(document).ready(function() {
         $("#red").animate({
             width: "700px"
         });
-         $("#purple").animate({
+        $("#purple").animate({
             width: "800px"
         });
         $("#yellow").animate({
@@ -59,9 +59,19 @@ $(document).ready(function() {
 
     /*make duplicates for crazy shizzz to happen....*/
     $(".button7").click(function() {
-       $("#pink").show();
-    $("#purple").show();
-    $("#yellow").show();
+        
+        $("#pink").show().animate({
+            top: 50,
+            left: 3
+        });
+        $("#purple").show().animate({
+            top: 70,
+            left: 3
+        });
+        $("#yellow").show().animate({
+            top: 120,
+            left: 3
+        });
     });
 
 
@@ -70,11 +80,11 @@ $(document).ready(function() {
     var high = 165;
 
     $(".button6").click(function() {
-       $(".box").width(wide).height(high);
-       $(".box").animate({
-        top: 5,
-        left: 3
-    });
+        $(".box").width(wide).height(high);
+        $(".box").animate({
+            top: 5,
+            left: 3
+        });
         $("#pink").hide();
         $("#yellow").hide();
         $("#purple").hide();
@@ -99,8 +109,8 @@ $(document).ready(function() {
                 "top": tTop
             }, 2000, function() {
                 $this.animate({
-                    "left": originalOffset.left+100,
-                    "top": originalOffset.top -30
+                    "left": originalOffset.left + 100,
+                    "top": originalOffset.top - 30
                 }, 3000);
             });
         });
