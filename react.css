@@ -25,6 +25,29 @@ box {
     position: relative;
 }
 
+#purple {
+    background: #660099;
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    position: relative;
+}
+
+#yellow {
+    background: #ffff77;
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    position: relative;
+}
+
+#pink {
+    background: #ff33aa;
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    position: relative;
+}
 .instruction{
      color: white;
 }
