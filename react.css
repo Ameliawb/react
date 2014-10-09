@@ -2,7 +2,7 @@ body {
     background-image: url("background_react.jpg");
 }
 h1 {
-    color: #000000;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -13,7 +13,7 @@ box {
     position: relative;
 }
 .hello {
-    background: #ffff99;
+    background: #000000;
     height: 19px;
     width: 359px;
     opacity: .79;
