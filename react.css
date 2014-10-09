@@ -4,9 +4,9 @@ body {
 h1 {
     color: #ffffff;
     font-family: 'Lato', sans-serif;
-    font-size: 54px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 58px;
+    line-height: 16px;
     margin: 0 0 58px;
 }
 box {
@@ -14,7 +14,6 @@ box {
 }
 .hello {
     background: #ffff99;
-    padding: 12px;
     height: 19px;
     width: 359px;
     opacity: .79;
