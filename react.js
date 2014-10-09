@@ -83,7 +83,8 @@ $(document).ready(function() {
         $(".box").width(wide).height(high);
         $(".box").animate({
             top: 5,
-            left: 3
+            left: 3,
+            opacity: 1
         });
         $("#pink").hide();
         $("#yellow").hide();

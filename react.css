@@ -3,6 +3,10 @@ background-image: url("background_react.jpg");
 }
 box {
     position: relative;}
+
+    .hello{
+        background: white;
+    }
 #green {
     background: #d6ef39;
     height: 165px;
