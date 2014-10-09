@@ -5,7 +5,8 @@ box {
     position: relative;}
 
     .hello{
-        background: white;
+        background: white
+        padding: 25px;
     }
 #green {
     background: #d6ef39;
