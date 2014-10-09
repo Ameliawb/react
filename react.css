@@ -7,8 +7,9 @@ box {
     .hello{
         background: #ffff99;
         padding: 25px ;
-        height: 23px;
+        height: 19px;
         width:359px;
+        opacity:.75;
     }
 #green {
     background: #d6ef39;
