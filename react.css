@@ -14,9 +14,10 @@ box {
 }
 .hello {
     background: #000000;
-    height: 22px;
+    height: 26px;
     width: 359px;
     opacity: .79;
+    margin: 1 1 1px;
 }
 #green {
     background: #d6ef39;
