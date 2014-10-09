@@ -7,7 +7,7 @@ h1 {
     font-size: 16px;
     font-weight: 300;
     line-height: 18px;
-    margin: 1 1 58px;
+    margin: 2 2 58px;
 }
 box {
     position: relative;
@@ -17,7 +17,6 @@ box {
     height: 26px;
     width: 359px;
     opacity: .79;
-    margin: 1 1 1px;
 }
 #green {
     background: #d6ef39;
